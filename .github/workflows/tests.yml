@@ -23,4 +23,7 @@ jobs:
       with:
         python-version: '3.10'
     - name: test
+      env:
+        ARACHNIO_BASE_URL: ${{ secrets.ARACHNIO_BASE_URL }}
+        ARACHNIO_API_KEY: ${{ secrets.ARACHNIO_API_KEY }}
       run: make test
