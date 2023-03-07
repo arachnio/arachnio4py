@@ -26,7 +26,7 @@ jobs:
     - name: Install Requirements
       run: pip install -r requirements.txt
     - name: Install Module Under Test
-      run: pip install -e arachnio
+      run: pip install -e .
     - name: Run Tests
       env:
         ARACHNIO_BASE_URL: ${{ secrets.ARACHNIO_BASE_URL }}
