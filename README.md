@@ -1,4 +1,4 @@
-# arachnio4j [![tests](https://github.com/arachnio/arachnio4py/actions/workflows/tests.yml/badge.svg)](https://github.com/arachnio/arachnio4py/actions/workflows/tests.yml)
+# arachnio4j [![tests](https://github.com/arachnio/arachnio4py/actions/workflows/tests.yml/badge.svg)](https://github.com/arachnio/arachnio4py/actions/workflows/tests.yml) [![version](https://shields.io/pypi/v/arachnio)](https://pypi.org/project/arachnio/)
 
 [Arachnio](https://www.arachn.io/) client library for Python 3.10+
 
