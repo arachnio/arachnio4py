@@ -17,7 +17,7 @@ classifiers = [
 keywords = ["arachnio", "arachn.io"]
 # Some day, we should be able to sync requirements.txt to pyproject.toml...
 dependencies = [
-    "requests~=2.28.2",
+    "requests>=2.28.2,<2.31.0",
     'tomli; python_version < "3.11"'
 ]
 requires-python = ">=3.9"
